@@ -1,7 +1,8 @@
 ﻿# P-A-O-S
 
-A four-pillar platform separating algorithmic core logic, backend
-API/persistence, frontend UI, and operational tooling.
+A six-pillar platform separating algorithmic core logic, backend
+API/persistence, frontend UI, operational tooling, machine learning,
+and wearable hardware integration.
 
 ## Structure
 
@@ -15,6 +16,13 @@ API/persistence, frontend UI, and operational tooling.
   hooks, and page routes.
 - **4_ops/** — Tests, DB seed scripts, Docker/Compose setup for local
   dev, and an `.env.example` template.
+- **5_ml/** — Machine learning models: quality prediction (regression),
+  material substitution classifier, manufacturing anomaly detection,
+  supply forecasting, and bootstrap uncertainty quantification. Plus
+  shared preprocessing utilities and a model save/load registry.
+- **6_hardware/** — Wearable device integration: BLE connector, reading
+  data model, and an ingestion poller that streams validated sensor
+  readings toward the backend.
 
 ## Getting started
 
