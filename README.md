@@ -1,4 +1,4 @@
-﻿# my-platform
+﻿# P-A-O-S
 
 A four-pillar platform separating algorithmic core logic, backend
 API/persistence, frontend UI, and operational tooling.
